@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class LimitTest {
 
     @Test
-    void checkLimit_workedExamples() {
+    void check_workedExamples() {
         Map<Long, Long> client1 = new HashMap<Long,Long>() {
             {
                 put(Long.valueOf("20250625142700"),100L);
